@@ -10,7 +10,7 @@
 <meta property='og:description' content="Evidence1 分离 eg2kX.jpg 文件可以发现存在zip文件\n使用 foremost 进行分离，得到一个压缩包，分离后得到一个txt文件，打开得到Evidence1 Evidence2 发现该文件后缀名为 .jpg ，但是二进制文件头格式是压缩包\n">
 <meta property='og:url' content='https://m1ke-chuan.github.io/p/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E4%B8%8E%E8%AF%84%E4%BC%B0%E5%8D%95%E6%9C%BA%E5%8F%96%E8%AF%81/'>
 <meta property='og:site_name' content='m1ke'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-09T16:18:48&#43;08:00'/><meta property='article:modified_time' content='2025-09-10T08:36:58&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-09T16:18:48&#43;08:00'/><meta property='article:modified_time' content='2025-09-10T09:20:47&#43;00:00'/>
 <meta name="twitter:title" content="信息安全管理与评估——单机取证">
 <meta name="twitter:description" content="Evidence1 分离 eg2kX.jpg 文件可以发现存在zip文件\n使用 foremost 进行分离，得到一个压缩包，分离后得到一个txt文件，打开得到Evidence1 Evidence2 发现该文件后缀名为 .jpg ，但是二进制文件头格式是压缩包\n">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -367,7 +367,7 @@
 
 
         <span>
-            最后更新于 Sep 10, 2025 08:36 UTC
+            最后更新于 Sep 10, 2025 09:20 UTC
         </span>
     </section></footer>
 
@@ -495,7 +495,6 @@
     }());
 </script>
 <div id="particles-js"></div>
-
 <script src=https://m1ke-chuan.github.io/background/particles.min.js></script>
 <script>
   particlesJS.load('particles-js', "https://m1ke-chuan.github.io/background/particlesjs-config.json", function() {
@@ -513,5 +512,49 @@
   }
 </style>
 
+<script>
+    
+    const cssPath = "https://m1ke-chuan.github.io/waifu/waifu.css"
+    const tipsJsonPath = "https://m1ke-chuan.github.io/waifu/waifu-tips.json"
+    
+    const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
+
+    
+    function loadExternalResource(url, type) {
+        return new Promise((resolve, reject) => {
+            let tag;
+            if (type === "css") {
+                tag = document.createElement("link");
+                tag.rel = "stylesheet";
+                tag.href = url;
+            }
+            else if (type === "js") {
+                tag = document.createElement("script");
+                tag.src = url;
+            }
+            if (tag) {
+                tag.onload = () => resolve(url);
+                tag.onerror = () => reject(url);
+                document.head.appendChild(tag);
+            }
+        });
+    }
+
+    
+    if (screen.width >= 768) {
+        Promise.all([
+            loadExternalResource(cssPath, "css"),
+            loadExternalResource(live2d_path + "live2d.min.js", "js"),
+            loadExternalResource(live2d_path + "waifu-tips.js", "js")
+        ]).then(() => {
+            
+            initWidget({
+                waifuPath: tipsJsonPath,
+                cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
+                tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
+            });
+        });
+    }
+</script>
     </body>
 </html>
