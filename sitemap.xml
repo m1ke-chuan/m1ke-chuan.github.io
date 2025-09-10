@@ -2,31 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://m1ke-chuan.github.io/</loc>
-    <lastmod>2025-09-09T16:18:48+08:00</lastmod>
-  </url><url>
     <loc>https://m1ke-chuan.github.io/post/</loc>
-    <lastmod>2025-09-09T16:18:48+08:00</lastmod>
+    <lastmod>2025-09-10T08:36:58+00:00</lastmod>
+  </url><url>
+    <loc>https://m1ke-chuan.github.io/p/%E9%AB%98%E6%95%B0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-09-10T08:36:58+00:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/p/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E4%B8%8E%E8%AF%84%E4%BC%B0%E5%8D%95%E6%9C%BA%E5%8F%96%E8%AF%81/</loc>
-    <lastmod>2025-09-09T16:18:48+08:00</lastmod>
+    <lastmod>2025-09-10T08:36:58+00:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
+  </url><url>
+    <loc>https://m1ke-chuan.github.io/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/categories/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/tags/</loc>
   </url><url>
     <loc>https://m1ke-chuan.github.io/categories/test/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/search/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url><url>
     <loc>https://m1ke-chuan.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
+    <lastmod>2025-09-10T14:31:20+08:00</lastmod>
   </url>
 </urlset>
